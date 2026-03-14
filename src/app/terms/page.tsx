@@ -1,0 +1,236 @@
+import Image from "next/image";
+import Link from "next/link";
+
+export const metadata = {
+  title: "Terms and Conditions — Oogyy",
+  description: "Terms and Conditions for the Oogyy travel app and website.",
+};
+
+export default function TermsPage() {
+  return (
+    <div className="min-h-screen">
+      <header className="border-b border-[var(--border)] bg-[var(--background)]">
+        <nav className="mx-auto flex max-w-4xl items-center justify-between px-6 py-4">
+          <Link href="/" className="flex items-center transition-opacity hover:opacity-90">
+            <Image
+              src="/images/oogyy_wordmark.png"
+              alt="Oogyy"
+              width={120}
+              height={40}
+              className="h-8 w-auto"
+            />
+          </Link>
+          <div className="flex gap-6 text-sm font-medium text-[var(--muted)]">
+            <Link href="/" className="transition hover:text-[var(--foreground)]">
+              Home
+            </Link>
+            <Link href="/privacy" className="transition hover:text-[var(--foreground)]">
+              Privacy
+            </Link>
+          </div>
+        </nav>
+      </header>
+
+      <main className="mx-auto max-w-4xl px-6 py-16">
+        <h1 className="font-display mb-8 text-4xl font-bold tracking-tight text-[var(--foreground)]">
+          Terms and Conditions
+        </h1>
+        <p className="mb-12 text-sm text-[var(--muted)]">
+          Last Updated: 28 Feb, 2024
+        </p>
+
+        <div className="prose prose-lg max-w-none text-[var(--muted)]">
+          <p className="mb-8 leading-relaxed">
+            Oogyy.com (hereinafter referred to as &quot;Application Software&quot;) is designed and developed to facilitate the Users of the Application Software in providing a platform that allows Users to connect, share travel experiences, and find like-minded travellers for social and collaborative travel opportunities. The Application Software is designed and developed, owned, managed and operated by Oogyy, which expression unless repugnant to the context shall include and inure to the benefits of its heir, successor, affiliates, associates, officers, directors and assigns) (hereinafter referred to as the &quot;Company&quot;).
+          </p>
+
+          <h2 className="font-display mt-12 mb-4 text-xl font-semibold text-[var(--foreground)]">
+            1. All Users are advised to read through, understand, accept and comply with the terms and conditions set forth hereunder in order to avail the Services facilitated by the Company vide the Application Software.
+          </h2>
+          <p className="mb-4 font-medium text-[var(--foreground)]">Definitions:</p>
+          <ul className="mb-8 list-disc space-y-2 pl-6">
+            <li>&quot;Intellectual Property&quot; shall mean and include without limitation copyright, trademark, patents owned or assigned by/to the Company including website, URLs, logo, any content uploaded on the Application Software managed by the Company.</li>
+            <li>&quot;Application Software&quot; shall mean and include Oogyy.com website and mobile application.</li>
+            <li>&quot;Services&quot; shall mean and include services facilitated by the Company to the Users vide Application Software such as providing a platform that allows Users to connect, share travel experiences, and find like-minded travellers for travel opportunities and searching travel organisers to search for trips, by bringing travelers, travel organizers, community organizers and various category of vendors under one Application Software.</li>
+            <li>&quot;User&quot; shall mean and include travelers, vendors providing organized travel solutions and such other persons who are registered on the Application Software and who avail Services facilitated by the Company thereby. The User using any one or more Services, mentioned hereinbefore shall be Users and shall be deemed to be bound by these terms and conditions (Agreement) herein, except in case where a separate agreement has been entered with such specific User.</li>
+          </ul>
+
+          <h2 className="font-display mt-12 mb-4 text-xl font-semibold text-[var(--foreground)]">
+            2. Terms and Conditions of Service
+          </h2>
+
+          <h3 className="font-display mt-8 mb-3 text-lg font-semibold text-[var(--foreground)]">
+            2.1 Services facilitated by the Company:
+          </h3>
+          <p className="mb-4">
+            The Company through the Website and Application Software shall facilitate various categories of users, such as travellers, tour operators, hotels, transportation providers, and other service vendors, to view information displayed by other users on their accounts. This facilitates direct transactions between users without involving third-party agents. Oogyy further aims to provide users with a seamless travel experience, from booking tours and accommodations to finding transportation and travel-related services, all under a single platform. For clarity, the role of Oogyy shall be exclusively limited to connecting users and facilitating transactions between them via the website and application software.
+          </p>
+          <p className="mb-4">
+            Oogyy shall facilitate the following services as detailed below, and may add or remove services from time to time, which will be available on the website and application software for user access. These services include, without limitation:
+          </p>
+          <ol className="mb-8 list-decimal space-y-3 pl-6">
+            <li><strong>Registration of the Users on the Application Software:</strong> Users can register on the platform to access various travel-related services.</li>
+            <li><strong>Registration of the tour packages and services:</strong> Tour operators and travel agencies can register their tour packages and travel services for users to explore.</li>
+            <li><strong>Facilitation of Travellers to Book Tour Packages:</strong> The platform helps travellers discover and book tour packages that meet their needs, preferences, and budget.</li>
+            <li><strong>Accommodation and Hotel Booking Services:</strong> Travellers can book hotels, resorts, and other accommodations through Oogyy, based on their destination, budget, and other preferences.</li>
+            <li><strong>Transportation Services:</strong> Oogyy connects travellers with transportation providers, offering options like car rentals, private transfers, and flights to make travel easier and more convenient.</li>
+            <li><strong>Facilitation of Customized Itineraries and Travel Planning:</strong> Users can plan personalized travel itineraries, selecting accommodations, tours, and activities to suit their needs.</li>
+            <li><strong>Travel Services from Vendors:</strong> Travellers can avail themselves of services from vendors who provide various travel-related products such as travel insurance, transportation, local experiences, and guided tours.</li>
+            <li><strong>Promotions and Advertisements for Travel Services and Products:</strong> Oogyy facilitates the promotion and advertisement of travel services, tour packages, and products from vendors, including travel accessories and gear.</li>
+          </ol>
+
+          <h3 className="font-display mt-8 mb-3 text-lg font-semibold text-[var(--foreground)]">
+            2.2 Registration of the Users:
+          </h3>
+          <ol className="mb-8 list-decimal space-y-3 pl-6">
+            <li>The User intending to use the Service facilitated by the Company shall register on the Application Software by providing true, accurate, current, complete and appropriate details, for the purpose of access to the Application Software and to be eligible to avail Services facilitated by the Company vide Application Software.</li>
+            <li>The User hereby accepts and covenants to update and/or verify the details provided by him/her on the Application Software, when requested upon.</li>
+            <li>For the purpose of registration, the Company may require the User to provide personal information like name, contact number and address, email id, government id details and such other details required to identify and validate the account of the Users.</li>
+            <li>Upon registration, an account shall be created in favour of the User. The User shall operate and manage his/her account with a username and a password. Transfer of User account is not permitted from one User to the Other User/s.</li>
+            <li>The Company shall display the details provided by the User on the Application Software for facilitating other Users to view and access the same. The User when registered knows, agrees and acknowledges that the details so provided shall be available to other Users who register on the Application Software and the Company shall have no control over how the other User makes use of such information including making such information publicly known. The Company assume no liability for any loss or damage arising to any User due to their access/transactions based on the information displayed on the Application Software.</li>
+            <li>The Company may verify the details provided by the User at any time to enabling the User to register and continue to use the Services facilitated by the Company on this Application Software. The Company reserve the right of rejecting or disable the account of the User or blocking the User without being required to give reason for disabling the account/User, and incase when specific complaints are received in respect of the User.</li>
+            <li>Certain information on the Application Software shall be made available to the prospective User, even if he/she has not registered on the Application Software. But such prospective User shall not be able to contact any Users for purchase/sale of any organized trip, unless and until he/she registers on the Application Software as per the terms and conditions provided herein.</li>
+            <li>The Users understands that the User shall be solely responsible for the security of the User account and any and activities that arise out of such account.</li>
+            <li>The User&apos;s credit/debit card or bank account details/information is not received, stored by or retained by the Company in any manner. This information so provided by the User is directly received by the payment gateway service provider company. The payment gateway service provider is required to be compliant with requirements of various banks involved in the processing the payments and as required by the regulations prevalent from time to time. In case of any complains as regards the payment credit not received or any misuse of the payment/card details/bank account details, the User agrees to contact the payment gateway service provider when so directed by the Company. The User shall be solely responsible for any and all details provided by the User to such payment gateway service provider.</li>
+          </ol>
+
+          <h3 className="font-display mt-8 mb-3 text-lg font-semibold text-[var(--foreground)]">
+            2.3 Enrollment Fees:
+          </h3>
+          <ol className="mb-8 list-decimal space-y-3 pl-6">
+            <li>The Company may collect Enrollment Fees from Users for registration and accessing the Application Software and availing the Services facilitated by the Company therein, whether the User uses the Application Software or not post the User registration or whether the User benefited or not out of the registration. Provided however, the User may choose not to renew the Enrollment Term upon the expiry of the initial term.</li>
+            <li>The Company shall collect the Enrollment Fees on period basis (herein referred as Enrollment Term) such as monthly, quarterly or yearly, as may be applicable to an account. Enrollment Fees shall also depend on the nature of Services availed by the User.</li>
+            <li>The Enrollment Fees once paid shall not be refundable in any case, including but without limitation when a User account or the User has been disabled/ barred by the Company, without the Company being required to give the reason for forfeiture of the Enrollment Fees.</li>
+            <li>The Users are expected to renew the Enrollment Fees within time, before the expiry of the Enrollment Term; the Company shall have the right, to terminate or suspend the User from availing the Services facilitated by the Company without being required to give any intimation/notice should the User fail to renew their accounts;</li>
+            <li>The Enrollment Fees or such other amount paid by the User to the Company shall not be refundable, for any reasons whatsoever.</li>
+          </ol>
+
+          <h3 className="font-display mt-8 mb-3 text-lg font-semibold text-[var(--foreground)]">
+            2.4 Vendor&apos;s services
+          </h3>
+          <ol className="mb-8 list-decimal space-y-3 pl-6">
+            <li>Any and all services provided by the vendors including the advertisements pertaining to the same such as solo as well as community travel planning may be availed by the Users through the website of the respective vendors. The User understands and agrees that the Company herein operates purely as a facilitator and shall only display details of the various vendors providing services as mentioned herein before, on the Application Software. The User in order to avail any such services from any Vendors, they are required to visit such vendor website and avail services in accordance with the terms determined by such a vendor.</li>
+            <li>The Company neither provides any warranty with regard to accuracy, integrity, honesty of any services provided by any vendors registered on the Application. The User is expected to carry out its own due diligence before carrying out any transaction or deal with such vendors.</li>
+          </ol>
+
+          <h3 className="font-display mt-8 mb-3 text-lg font-semibold text-[var(--foreground)]">
+            2.5 Third-party Information:
+          </h3>
+          <ol className="mb-8 list-decimal space-y-3 pl-6">
+            <li>The Application Software may contain information and/or advertisements relating to the Users or a third party. The Company does not guarantee the accuracy, appropriateness and authenticity of any content regarding such Users or third-party Information.</li>
+            <li>The information on the Application Software, as mentioned herein above is provided on &apos;as is&apos; basis, the Company does not represent, warrant nor assume any liability for any loss or damage that may be incurred by the User acting on the basis of third-party Information.</li>
+            <li>The User shall be solely responsible for any action that the User may undertake or any information that the User may share on Application Software. The Company shall not be liable in any manner directly or indirectly, nor shall the Company be liable to indemnify any User from any loss or damage or injury which the User may suffer as a result of use of any information available on the Application Software.</li>
+          </ol>
+
+          <h3 className="font-display mt-8 mb-3 text-lg font-semibold text-[var(--foreground)]">
+            2.6 Updates via email, SMS or phone calls:
+          </h3>
+          <ol className="mb-8 list-decimal space-y-3 pl-6">
+            <li>The User hereby accepts and authorizes to receive updates (including advertisement and other promotional material) from the Company with respect to any of the Services facilitated by the Company via email, SMS or though phone calls or the Application Software.</li>
+            <li>The User hereby acknowledges that he/she has expressly authorized the Company to contact via mode stated herein above and authorizes the Company to communicate hereinafter. The User in that regard undertakes not to make any complaints against the Company to national consumer preference registry or any such authority, at any time irrespective whether the User continues its association with the Application Software or not.</li>
+          </ol>
+
+          <h3 className="font-display mt-8 mb-3 text-lg font-semibold text-[var(--foreground)]">
+            2.7 Obligations of the User:
+          </h3>
+          <ol className="mb-8 list-decimal space-y-3 pl-6">
+            <li>The User shall have the sole responsibility in maintaining the account and password. The User shall assume the responsibility to monitor any activities carried on the Application Software under User&apos;s account and password, with or without the knowledge of the User.</li>
+            <li>The User shall not or attempt to provide or transfer his/her account and password to any other person for the purpose of access or to avail Services facilitated by the Company. If the Company identifies such unauthorized act, the Company reserves the right to suspend or terminate such accounts of the Users along with such other remedies available to the Company.</li>
+            <li>The User undertakes the obligation to notify the Company immediately on becoming aware of any false information or any unauthorized activity being carried on by any person/User including when any person is using the account and password of the User.</li>
+            <li>The User herein undertakes to provide, for such purposes mentioned anywhere under this terms and conditions, accurate, appropriate, true and complete information. By accessing and availing the Services facilitated by the Company on the Application Software, the User confirms the appropriateness of the information provided by him. The Company do not assume any liability for any deletion, correction, loss, damage failure to store any information provided by the User.</li>
+            <li>The User represents and warrants to provide complete cooperation with the Company for the terms and conditions set forth herein.</li>
+            <li>The User hereby agrees and assures to provide any relevant and/or all additional information required by the Company at any time during or after his/her registration on the Application Software.</li>
+            <li>The User hereby accepts and agrees not to upload on the Application Software vide his/her account any prohibited material, writing, information, links or photographs which contains any obscene, nudity, harassing, violent, sexually explicit or such other offensive subject matter. The User herewith understands that any information uploaded by him/her on the Application Software vide his/her account shall confirm to the details requested by the Company.</li>
+            <li>The User also represents and warrants that the User shall use the information available on the Application Software belonging to other Users for reference purpose alone and not for the purpose of any activity that is deemed to be illegal under applicable laws; the Company shall not be responsible for any loss, act, action that may arise out of actions of any such User of the Application Software.</li>
+            <li>The User shall not, either directly or indirectly through any other individual or entity, reverse engineer, copy or reproduce the Application Software, or any information provided on the Application Software or any Services facilitated by the Company in order to build a similar Application Software, or provide services similar to that facilitated by the Company.</li>
+            <li>The User undertakes not to send any spam, obscene or prohibited messages to any other User and/or the Application Software in violation of the terms and conditions specified herein or any applicable law.</li>
+            <li>The User shall not send otherwise store any files, scripts, codes, programs containing software worms, viruses, trojan or such other harmful computer virus on the Application Software.</li>
+            <li>The User hereby accepts and warrants not to access, utilize, transfer, assign or otherwise license any Services availed by him/her or any information made available by the Company on the Application Software.</li>
+            <li>The User acknowledges title, right and interest in the Intellectual Property shall be owned and shall vest with the Company and thereby covenants not to access and utilize any Intellectual Property.</li>
+            <li>The Company shall assume no liability for any loss or damage caused to the User due to the noncompliance by the User with any provisions provided herein above.</li>
+          </ol>
+
+          <h3 className="font-display mt-8 mb-3 text-lg font-semibold text-[var(--foreground)]">
+            2.8 Our Rights:
+          </h3>
+          <ol className="mb-8 list-decimal space-y-3 pl-6">
+            <li>The Company are entitled to provide personalized advertisements for promotional and such other reasons by using the information provided by the User in collation to the information possessed/developed by the Company.</li>
+            <li>By accepting the terms and conditions, the User hereby expressly authorizes the Company or any representative/appointee of the Company to contact the Users via email, SMS or phone calls or through the Application Software in order to verify the details uploaded by the User on the Application Software.</li>
+            <li>By accepting the terms and conditions, the User hereby authorizes the Company to share any information provided by the User to the Company representatives, any third party, statutory bodies, financial institutions and such other authority in order to carry out including but not limited to verification of the information uploaded on the Application Software, marketing or promotional activities and for such other related matters.</li>
+            <li>The Company reserve the right to suspend or terminate the Users&apos; account along with other remedies available to the Company, with immediate effect, at Company&apos;s discretion without providing any reasons thereof more particularly when found that User is in violation of any terms and conditions provided herein or any applicable laws or regulations. The use and access of the Application Software and to avail Services by the User shall immediately cease upon termination or suspension of his/her account, in such cases the Company shall not be obligated to maintain or share any information submitted by the User.</li>
+            <li>The Company assume no responsibility for any interruption in facilitating Services for any reasons whatsoever.</li>
+          </ol>
+
+          <h2 className="font-display mt-12 mb-4 text-xl font-semibold text-[var(--foreground)]">
+            3. Warranties and Disclaimers
+          </h2>
+          <ol className="mb-8 list-decimal space-y-3 pl-6">
+            <li>The Company does not warrant or guarantee the User registering and paying the Enrollment Fees that the purpose with which the User has registered and paid the Enrollment Fees shall fructify or materialize; there may be cases where one of more of the Users get disenchantment when the desired results not achieved in such cases The Company shall not be liable to refund the amounts paid towards the Enrollment Fees paid by the User.</li>
+            <li>The Services facilitated by the Company on the Application Software are provided on an &apos;as is&apos; basis and the Company do not expressly or impliedly make any representation or warranty with regard to the accuracy, appropriateness, effectiveness, safety, quality and merchantability of the same.</li>
+            <li>The Company does not provide any warranty with regard to accuracy, integrity, honesty of any registered Users on the application software nor do the company undertake any responsibility to verify the ownership rights, title and interest in the properties of such users. The User is expected to carry out its own due diligence before carrying out any transaction or deal with any other User or third-party Information.</li>
+            <li>The Company shall neither assume any responsibility nor provide any guarantee for any nature in relation to transactions which may result out of the interaction between the Users or by the Users or such other services available on the Application Software directly or indirectly through Application Software.</li>
+            <li>The Company does not act as an agent to any vendors or warrant the Services facilitated by them to the Users on the Application Software.</li>
+            <li>The Company shall hold no responsibility nor incur any liability for any loss or damage incurred by any User due to change of the contact number or such other information available on the Application Software, of any other User or use of any false identity by any User to avail services.</li>
+            <li>The Company may through various channel partners/sales representatives facilitate Services. The Users are required to seek necessary documentary evidence from such channel Partners/sales representatives to act on or before making payment to such channel Partners/sales representatives.</li>
+          </ol>
+
+          <h2 className="font-display mt-12 mb-4 text-xl font-semibold text-[var(--foreground)]">
+            4. Limitation of Liability
+          </h2>
+          <ol className="mb-8 list-decimal space-y-3 pl-6">
+            <li>In no event shall the Company be liable for any loss of actual or anticipated revenues, profits, goodwill, opportunity of business or for any consequential, special, incidental, exemplary, punitive or other indirect losses or damages, civil or criminal whether arising out of or related to this terms and conditions, contents on the Application Software uploaded by the Users including those in contract, tort (including negligence) even if such loss was foreseeable and the Company had been advised of the possibility of such damages or loss.</li>
+            <li>The Company shall not be liable to refund any taxes paid by the User, wherein any amounts earlier paid by the User to the Company becomes refundable on any grounds herein provided.</li>
+            <li>The Company shall endeavor to facilitate un-interrupted Services to the Users, however, there may be times when interruption in Services may be occasioned such as during updating, maintenance, backup procedures, server &amp; service providers dependency (like the internet services/cloud services) or during war or other force majeure conditions or court/ government order or similar other conditions/events not in the control of the Company; in such scenarios the Company shall not be liable to pay any compensations/refund of amounts paid by the Users when the User is unable to use the Services facilitated.</li>
+          </ol>
+
+          <h2 className="font-display mt-12 mb-4 text-xl font-semibold text-[var(--foreground)]">
+            5. Indemnification
+          </h2>
+          <p className="mb-8">
+            The User hereby accepts and agrees to indemnify and hold the Company harmless for any loss or damage caused due to the breach of this terms and conditions, infringement of any Intellectual Property owned by the Company or third-party intellectual property rights, violation of law or regulations of any governmental, judicial, regulatory authority, wilful misconduct, actual or gross negligence.
+          </p>
+
+          <h2 className="font-display mt-12 mb-4 text-xl font-semibold text-[var(--foreground)]">
+            6. Governing law and Jurisdiction
+          </h2>
+          <ol className="mb-8 list-decimal space-y-3 pl-6">
+            <li>The construction, performance and interpretation of this terms and conditions shall be in accordance with the laws of India.</li>
+            <li>The Courts of Mumbai shall have the exclusive jurisdiction to interpret the terms and conditions and also to admit and hear any and all disputes.</li>
+            <li>All complains about the services to be sent by email to &quot;support@oogyy.com&quot; and all suggestion may be emailed to &quot;suggestions@oogyy.com&quot;.</li>
+          </ol>
+
+          <h2 className="font-display mt-12 mb-4 text-xl font-semibold text-[var(--foreground)]">
+            7. Waiver and Severability
+          </h2>
+          <ol className="mb-8 list-decimal space-y-3 pl-6">
+            <li>Any instance of non-observance of strict compliance on any provisions of this terms and conditions by either of the Parties, it shall not be deemed waiver of such clause or right by them.</li>
+            <li>No clauses or provisions of this terms and conditions which is held invalid, illegal or otherwise unenforceable, in whole or in part, for any reason whatsoever, by a court of competent jurisdiction shall affect the operation of remainder clauses. Such asserted invalid, illegal or unenforceable clauses or provisions shall be reformed in order to construe and interpret the original intent underlying such clause or provision and at the same time to render it valid and enforceable. Such remainder clauses shall continue in full force and effect as if the clauses so invalidated, construed illegal or otherwise unenforceable had not been contained herein.</li>
+          </ol>
+
+          <h2 className="font-display mt-12 mb-4 text-xl font-semibold text-[var(--foreground)]">
+            8. Agreement &amp; Modification to terms or Services facilitated by the Company:
+          </h2>
+          <ol className="mb-8 list-decimal space-y-3 pl-6">
+            <li>The Company reserve the right to modify, amend, alter or re design any terms provided herein or Services facilitated by the Company to the Users. The Company shall update the modified terms or Services, as the case may be on the Application Software, as and when modifications are carried out by the Company.</li>
+            <li>Acceptance of the terms and conditions herein, by clicking agreed and/or accepted, shall be considered as willful acceptance of the User and shall mean having agreed to enter into an agreement with the Company and the User shall be bound by all the terms and conditions stated herein above and as modified from time to time. The User is required and agrees to update himself of the terms and conditions modified and available for the User on this Application Software, without the Company be required to intimate the User of the terms and conditions.</li>
+          </ol>
+        </div>
+
+        <div className="mt-12 flex gap-6 border-t border-[var(--border)] pt-8">
+          <Link
+            href="/"
+            className="font-medium text-[var(--primary)] transition hover:underline"
+          >
+            ← Back to Home
+          </Link>
+          <Link
+            href="/privacy"
+            className="font-medium text-[var(--primary)] transition hover:underline"
+          >
+            Privacy Policy →
+          </Link>
+        </div>
+      </main>
+    </div>
+  );
+}
