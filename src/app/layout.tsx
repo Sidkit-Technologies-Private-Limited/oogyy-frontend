@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { MaintenanceGate } from "@/components/MaintenanceGate";
 
 export const metadata: Metadata = {
   title: "Oogyy — The Way to Travel Today",
@@ -21,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className="font-sans antialiased grain">
-        {children}
+        <MaintenanceGate>{children}</MaintenanceGate>
       </body>
     </html>
   );
