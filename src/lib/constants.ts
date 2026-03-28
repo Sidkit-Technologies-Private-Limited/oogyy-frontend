@@ -1,12 +1,13 @@
 /**
- * App store links — replace with your actual URLs when ready.
+ * App store links — override with NEXT_PUBLIC_* env in deployment if needed.
  * Apple: https://apps.apple.com/app/your-app-id
- * Google: https://play.google.com/store/apps/details?id=your.package
+ * Google: https://play.google.com/store/apps/details?id=com.oogyy.android
  */
 export const APP_STORE_LINK =
   process.env.NEXT_PUBLIC_APP_STORE_LINK ?? "#";
 export const PLAY_STORE_LINK =
-  process.env.NEXT_PUBLIC_PLAY_STORE_LINK ?? "#";
+  process.env.NEXT_PUBLIC_PLAY_STORE_LINK ??
+  "https://play.google.com/store/apps/details?id=com.oogyy.android";
 
 /** Decode base64 to string (works in browser and Node) */
 function decodeBase64(s: string): string {
