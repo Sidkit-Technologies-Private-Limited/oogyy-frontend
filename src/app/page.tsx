@@ -271,9 +271,14 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-[var(--border)] bg-[var(--foreground)] py-10 px-6">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 sm:flex-row">
-          <p className="text-sm text-white/70">
-            © {new Date().getFullYear()} Oogyy. All rights reserved.
-          </p>
+          <div className="text-center sm:text-left">
+            <p className="text-sm text-white/70">
+              © {new Date().getFullYear()} Oogyy. All rights reserved.
+            </p>
+            <p className="mt-1 text-xs tracking-wide text-white/50">
+              EUNOIA LABS PRIVATE LIMITED
+            </p>
+          </div>
           <div className="flex gap-6 text-sm font-medium">
             <Link href="/terms" className="text-white/80 transition-colors hover:text-white">
               Terms of Service
