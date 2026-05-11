@@ -1,0 +1,36 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.oogyy",
+      "sha256_cert_fingerprints": [
+        "BA:F6:8C:BE:DC:86:D9:D5:AB:AC:FD:04:D7:86:D5:27:A2:DE:E4:86:72:2F:CE:CF:BD:1D:B9:F7:30:A2:17:02",
+        "75:E8:DB:B5:97:D9:6F:49:CE:B9:57:7D:B5:F6:5C:56:12:64:63:DC:A4:BF:BF:4E:0A:A0:C0:A6:8F:2B:A8:FD",
+        "E6:11:5D:3F:21:9D:D6:87:10:45:C2:22:2F:58:56:77:EB:60:B2:89:36:9A:62:D0:F3:41:25:DD:A6:4A:C6:96",
+        "55:CB:02:E1:61:42:0C:C0:42:FB:91:9A:CE:64:57:B2:8F:0D:26:FA:AA:97:FF:D0:C1:18:72:6A:B9:41:88:6A",
+        "B0:07:88:60:A3:20:BA:9B:8A:C4:67:ED:F9:FD:40:C6:70:B3:CB:9E:26:54:13:D3:51:6B:58:8A:94:A2:E9:DC"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.oogyy.android",
+      "sha256_cert_fingerprints": [
+        "B0:07:88:60:A3:20:BA:9B:8A:C4:67:ED:F9:FD:40:C6:70:B3:CB:9E:26:54:13:D3:51:6B:58:8A:94:A2:E9:DC",
+        "BA:F6:8C:BE:DC:86:D9:D5:AB:AC:FD:04:D7:86:D5:27:A2:DE:E4:86:72:2F:CE:CF:BD:1D:B9:F7:30:A2:17:02",
+        "75:E8:DB:B5:97:D9:6F:49:CE:B9:57:7D:B5:F6:5C:56:12:64:63:DC:A4:BF:BF:4E:0A:A0:C0:A6:8F:2B:A8:FD",
+        "E6:11:5D:3F:21:9D:D6:87:10:45:C2:22:2F:58:56:77:EB:60:B2:89:36:9A:62:D0:F3:41:25:DD:A6:4A:C6:96",
+        "55:CB:02:E1:61:42:0C:C0:42:FB:91:9A:CE:64:57:B2:8F:0D:26:FA:AA:97:FF:D0:C1:18:72:6A:B9:41:88:6A"
+      ]
+    }
+  }
+]

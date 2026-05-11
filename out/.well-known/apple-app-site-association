@@ -1,0 +1,21 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "95H8772G6W.com.oogyy",
+        "paths": [
+          "/invites/itinerary/*",
+          "/invites/community/*",
+          "/invites/*",
+          "/*"
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "95H8772G6W.com.oogyy"
+    ]
+  }
+}
