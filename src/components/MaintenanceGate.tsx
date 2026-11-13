@@ -11,12 +11,11 @@ interface StatusItem {
 }
 
 export function MaintenanceGate({ children }: { children: React.ReactNode }) {
-  const [isDown, setIsDown] = useState<boolean | null>(null);
+  const [isDown, setIsDown] = useState(false);
   const [message, setMessage] = useState("");
 
   useEffect(() => {
     if (!APP_STATUS_URL) {
-      setIsDown(false);
       return;
     }
 
@@ -32,27 +31,15 @@ export function MaintenanceGate({ children }: { children: React.ReactNode }) {
           if (oogyy?.isDown) {
             setIsDown(true);
             setMessage(oogyy.message ?? "");
-          } else {
-            setIsDown(false);
           }
-        } else {
-          setIsDown(false);
         }
       } catch {
-        setIsDown(false);
+        /* keep default up */
       }
     };
 
-    check();
+    void check();
   }, []);
-
-  if (isDown === null) {
-    return (
-      <div className="flex min-h-screen items-center justify-center bg-[var(--primary-bg-soft)]">
-        <div className="h-8 w-8 animate-spin rounded-full border-2 border-[var(--primary)] border-t-transparent" />
-      </div>
-    );
-  }
 
   if (isDown) {
     return (
